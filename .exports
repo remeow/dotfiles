@@ -1,5 +1,5 @@
-# Make vim the default editor
-export EDITOR="vim"
+# Make subl the default editor
+export EDITOR="subl"
 # Don’t clear the screen after quitting a manual page
 export MANPAGER="less -X"
 
@@ -9,3 +9,7 @@ export HISTFILESIZE=$HISTSIZE
 export HISTCONTROL=ignoredups
 # Make some commands not show up in history
 export HISTIGNORE="ls:ls *:cd:cd -:pwd;exit:date:* --help"
+
+#database dev passwords
+export XING_DEV_DB_PASSWORD="asdqwe"
+export XING_TEST_DB_PASSWORD="asdqwe"
