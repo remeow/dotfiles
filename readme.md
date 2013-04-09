@@ -57,16 +57,6 @@ add the below to this file: `~/Library/Application Support/Sublime Text 2/Packag
 <string>.vimrc</string>
 ```
 
-
-
-### Sensible OS X defaults
-
-When setting up a new Mac, you may want to set some sensible OS X defaults:
-
-```bash
-./.osx
-```
-
 ## Similar projects
 
 I recommend getting a [`.jshintrc`](https://github.com/jshint/node-jshint/blob/master/.jshintrc) and [`.editorconfig`](http://editorconfig.org/) defined for all your projects.
