@@ -11,5 +11,3 @@ export HISTCONTROL=ignoredups
 export HISTIGNORE="ls:ls *:cd:cd -:pwd;exit:date:* --help"
 
 #database dev passwords
-export XING_DEV_DB_PASSWORD="asdqwe"
-export XING_TEST_DB_PASSWORD="asdqwe"

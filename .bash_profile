@@ -1,14 +1,23 @@
-# Load ~/.extra, ~/.bash_prompt, ~/.exports, ~/.aliases and ~/.functions
+# Load:
+# - ~/.extra
+# - ~/.bash_prompt
+# - ~/.exports 
+# - ~/.aliases 
+# - ~/.functions
+# - ~/.git-completion.bash
+# 
 # ~/.extra can be used for settings you don’t want to commit
-for file in ~/.{extra,bash_prompt,exports,aliases,functions}; do
+for file in ~/.{extra,bash_prompt,exports,aliases,functions,git-completion.bash}; do
 	[ -r "$file" ] && source "$file"
 done
 unset file
 
-# init rvm
+# Autocomplete from git
+
+# Initialize rvm
 source ~/.rvm/scripts/rvm
 
-#init nvm
+# Initialize nvm
 source ~/.nvm/nvm.sh
 
 # Case-insensitive globbing (used in pathname expansion)
